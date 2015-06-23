@@ -5,9 +5,54 @@
     <description>A Jekyll Code Log.</description>
     <link>/code-log/</link>
     <atom:link href="/code-log/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 23 Jun 2015 11:52:49 -0600</pubDate>
-    <lastBuildDate>Tue, 23 Jun 2015 11:52:49 -0600</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2015 12:19:25 -0600</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2015 12:19:25 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Code Logging</title>
+        <description>&lt;p&gt;This blog is what I call a code log, a place to post bits and pieces of code I find around the net along with the instructions on how to use them. Code Logging must be done such a way as to provide meaningful information and examples of code and output for ease of use.&lt;/p&gt;
+
+&lt;p&gt;Thus, I am making this Code Logging template page, so that those who get confused about the format of my logs might have a reference.&lt;/p&gt;
+
+&lt;h3&gt;One | Front Matter&lt;/h3&gt;
+
+&lt;p&gt;All Code Logging posts must have the following in the front matter ( Do note, the front matter is not exactly visible to readers )&lt;/p&gt;
+
+&lt;p&gt;categories: [CLog]
+tags: [varies,depending,on,type]&lt;/p&gt;
+
+&lt;p&gt;The category will always remain the same, it should be CLog, short for Code Log, the tags, on the other hand, will vary depending on what type of code is in that log, so I might use the tags [html,css] for example, or [html,css,js] or even [php] or [c#] any number of things. It just really all depends.&lt;/p&gt;
+
+&lt;h3&gt;Two | Code Blocks&lt;/h3&gt;
+
+&lt;p&gt;Code blocks are specially highlighted to set them apart from normal text, an example of this is below...&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;show&lt;/span&gt;
+  &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Widget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;respond_to&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# show.html.erb&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;and another example...&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Hello World&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at diam eu lacus pellentesque venenatis vel nec purus. Vivamus euismod, diam vel cursus condimentum, justo dolor vulputate ante, eget vulputate justo justo eget ipsum.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I think you get the idea.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Jun 2015 00:00:00 -0600</pubDate>
+        <link>/code-log/clog/2015/06/23/code-logging/</link>
+        <guid isPermaLink="true">/code-log/clog/2015/06/23/code-logging/</guid>
+        
+        <category>template</category>
+        
+        
+        <category>clog</category>
+        
+      </item>
     
       <item>
         <title>Template</title>

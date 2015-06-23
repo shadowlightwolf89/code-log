@@ -4,7 +4,7 @@
     <head>
 <meta charset="" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Template</title>
+<title>Code Logging</title>
 <meta name="description" content="A Jekyll Code Log.">
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -79,7 +79,7 @@
       </div>
       
 
-      <h1 class="header" itemprop="name">Template</h1>
+      <h1 class="header" itemprop="name">Code Logging</h1>
 
       <div class="author">
         <small><i>
@@ -87,14 +87,10 @@
           <span itemprop="author">
             
             
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <span itemprop="name">Rowan Maddigen</span>
-            </span>
-            
             
           </span>
-          on <span itemprop="datePublished" content="2014-08-28">October 21, 1989</span>
-          under template
+          on <span itemprop="datePublished" content="2014-08-28">June 23, 2015</span>
+          under clog
         </i></small>
       </div>
 
@@ -105,45 +101,44 @@
       </div>
 
       <div class="content-panel content">
-        <span itemprop="articleBody"><p>Carte Noire is designed to start each article with an all-white image as a
-thumbnail. These are created by adding a <code>thumbnail</code> parameter to the article&#39;s
-<a href="http://jekyllrb.com/docs/frontmatter/">YAML frontmatter</a>. This thumbnail parameter is processed in one of two ways,
-images specified in <code>_data/thumbnails.yml</code> or using <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>.</p>
+        <span itemprop="articleBody"><p>This blog is what I call a code log, a place to post bits and pieces of code I find around the net along with the instructions on how to use them. Code Logging must be done such a way as to provide meaningful information and examples of code and output for ease of use.</p>
 
-<h2>Images</h2>
+<p>Thus, I am making this Code Logging template page, so that those who get confused about the format of my logs might have a reference.</p>
 
-<p>To use your own custom images as a thumbnail you must upload them to a web available
-location (I use <a href="http://imgur.com/">Imgur</a>) and then you need to add the url to <code>_data/thumbnail.yml</code>
-with an associated keyword.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">jekyll: &quot;http://i.imgur.com/aRQcGSi.png&quot;
-</code></pre></div>
-<p>You then add a <code>thumbnail</code> option to the article&#39;s frontmatter and provide the keyword
-for that thumbnail.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">thumbnail: jekyll
-</code></pre></div>
-<p>This allows you to re-use thumbnails across multiple articles without having to
-specify the url each time.</p>
+<h3>One | Front Matter</h3>
 
-<h2>Font Awesome</h2>
+<p>All Code Logging posts must have the following in the front matter ( Do note, the front matter is not exactly visible to readers )</p>
 
-<p>If jekyll can&#39;t find a corresponding image in your <code>thumbnail.yml</code> file then it
-will assume you want to use a Font Awesome icon instead. You can find the full
-list of Font Awesome icons <a href="http://fortawesome.github.io/Font-Awesome/icons/">here</a>.</p>
+<p>categories: [CLog]
+tags: [varies,depending,on,type]</p>
 
-<p>So for example if your article is about android and you want to use the <a href="http://fortawesome.github.io/Font-Awesome/icon/android/">android icon</a>
-from font awesome you can just specify the following in your frontmatter.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">thumbnail: android
-</code></pre></div>
-<p>Then in the future if you decide you want to use your own android icon you can just
-add it to <code>_data/thumbnails.yml</code> which will override it for all articles using
-the android thumbnail.</p>
+<p>The category will always remain the same, it should be CLog, short for Code Log, the tags, on the other hand, will vary depending on what type of code is in that log, so I might use the tags [html,css] for example, or [html,css,js] or even [php] or [c#] any number of things. It just really all depends.</p>
+
+<h3>Two | Code Blocks</h3>
+
+<p>Code blocks are specially highlighted to set them apart from normal text, an example of this is below...</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">show</span>
+  <span class="vi">@widget</span> <span class="o">=</span> <span class="no">Widget</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:id</span><span class="o">]</span><span class="p">)</span>
+  <span class="n">respond_to</span> <span class="k">do</span> <span class="o">|</span><span class="nb">format</span><span class="o">|</span>
+    <span class="nb">format</span><span class="o">.</span><span class="n">html</span> <span class="c1"># show.html.erb</span>
+    <span class="nb">format</span><span class="o">.</span><span class="n">json</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">json</span><span class="p">:</span> <span class="vi">@widget</span> <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div>
+
+<p>and another example...</p>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1&gt;</span>Hello World<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at diam eu lacus pellentesque venenatis vel nec purus. Vivamus euismod, diam vel cursus condimentum, justo dolor vulputate ante, eget vulputate justo justo eget ipsum.<span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+<p>I think you get the idea.</p>
 </span>
 
         
 
         <div class="tags"><small>
           <i class="fa fa-tags"></i>
-            template, carte noire
+            template
         </small></div>
 
       </div>
@@ -165,25 +160,25 @@ the android thumbnail.</p>
 <!--       <div class="content-panel related clearfix">
         
         <div class="related-header">
-          <a href="/code-log/clog/2015/06/23/code-logging/">Read More</a>
+          <a href="/code-log/template/1989/10/21/template/">Read More</a>
         </div>
           <div class="title">
-            <a href="/code-log/clog/2015/06/23/code-logging/">Code Logging</a>
+            <a href="/code-log/template/1989/10/21/template/">Template</a>
           </div>
           <div class="excerpt">
-            This blog is what I call a code log, a place to post bits and pieces of code I find around the net along with the instructions on how to...
-            <a href="/code-log/clog/2015/06/23/code-logging/">Continue Reading</a>
+            Carte Noire is designed to start each article with an all-white image as a thumbnail. These are created by adding a thumbnail parameter to the article&#39;s YAML frontmatter. This thumbnail...
+            <a href="/code-log/template/1989/10/21/template/">Continue Reading</a>
           </div>
          -->
         <hr />
         <div class="previous previous-next">
           
+          <p>
+            <a href="/code-log/template/1989/10/21/template/">Previous</a>
+          </p>
+          
         </div>
         <div class="next previous-next">
-          
-          <p>
-            <a href="/code-log/clog/2015/06/23/code-logging/">Next</a>
-          </p>
           
         </div>
       </div>
