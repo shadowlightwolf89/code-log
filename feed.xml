@@ -5,9 +5,28 @@
     <description>A Jekyll Code Log.</description>
     <link>/code-log/</link>
     <atom:link href="/code-log/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 23 Jun 2015 12:19:25 -0600</pubDate>
-    <lastBuildDate>Tue, 23 Jun 2015 12:19:25 -0600</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sat, 27 Jun 2015 14:14:40 -0600</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2015 14:14:40 -0600</lastBuildDate>
+    <generator>Jekyll v3.0.0.pre.beta7</generator>
+    
+      <item>
+        <title>Linux CLI</title>
+        <description>&lt;p&gt;I have just uploaded several markdown files to the master branch with Linux Terminal commands, now, these are commands I use frequently or have deemed of later use, but maybe not for you, if you find them useful, all well and good.&lt;/p&gt;
+
+&lt;p&gt;Anyways, you can find them &lt;a href=&quot;https://github.com/shadowlightwolf89/code-log/tree/master/Linux&quot;&gt;here&lt;/a&gt;, the Apps folder contains commands for 3rd party apps that you have to install separately and might not already have, the Functions folder contains commands for built in apps or apps that you really ought to have installed if you don&amp;#39;t already, such as apps to unarchive things.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Jun 2015 00:00:00 -0600</pubDate>
+        <link>/code-log/clog/2015/06/27/linux-cli/</link>
+        <guid isPermaLink="true">/code-log/clog/2015/06/27/linux-cli/</guid>
+        
+        <category>bash</category>
+        
+        <category>CLI</category>
+        
+        
+        <category>CLog</category>
+        
+      </item>
     
       <item>
         <title>Code Logging</title>
@@ -28,18 +47,18 @@ tags: [varies,depending,on,type]&lt;/p&gt;
 
 &lt;p&gt;Code blocks are specially highlighted to set them apart from normal text, an example of this is below...&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;show&lt;/span&gt;
-  &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Widget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;show&lt;/span&gt;
+  &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Widget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;respond_to&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# show.html.erb&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# show.html.erb&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;json: &lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;and another example...&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Hello World&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at diam eu lacus pellentesque venenatis vel nec purus. Vivamus euismod, diam vel cursus condimentum, justo dolor vulputate ante, eget vulputate justo justo eget ipsum.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Hello World&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at diam eu lacus pellentesque venenatis vel nec purus. Vivamus euismod, diam vel cursus condimentum, justo dolor vulputate ante, eget vulputate justo justo eget ipsum.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;I think you get the idea.&lt;/p&gt;
 </description>
@@ -50,7 +69,7 @@ tags: [varies,depending,on,type]&lt;/p&gt;
         <category>template</category>
         
         
-        <category>clog</category>
+        <category>CLog</category>
         
       </item>
     
@@ -66,11 +85,11 @@ images specified in &lt;code&gt;_data/thumbnails.yml&lt;/code&gt; or using &lt;a
 &lt;p&gt;To use your own custom images as a thumbnail you must upload them to a web available
 location (I use &lt;a href=&quot;http://imgur.com/&quot;&gt;Imgur&lt;/a&gt;) and then you need to add the url to &lt;code&gt;_data/thumbnail.yml&lt;/code&gt;
 with an associated keyword.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;jekyll: &amp;quot;http://i.imgur.com/aRQcGSi.png&amp;quot;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;jekyll: &quot;http://i.imgur.com/aRQcGSi.png&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;You then add a &lt;code&gt;thumbnail&lt;/code&gt; option to the article&amp;#39;s frontmatter and provide the keyword
 for that thumbnail.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;thumbnail: jekyll
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;thumbnail: jekyll
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This allows you to re-use thumbnails across multiple articles without having to
 specify the url each time.&lt;/p&gt;
@@ -83,7 +102,7 @@ list of Font Awesome icons &lt;a href=&quot;http://fortawesome.github.io/Font-Aw
 
 &lt;p&gt;So for example if your article is about android and you want to use the &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/icon/android/&quot;&gt;android icon&lt;/a&gt;
 from font awesome you can just specify the following in your frontmatter.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;thumbnail: android
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;thumbnail: android
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Then in the future if you decide you want to use your own android icon you can just
 add it to &lt;code&gt;_data/thumbnails.yml&lt;/code&gt; which will override it for all articles using

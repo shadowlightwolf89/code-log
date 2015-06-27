@@ -1,6 +1,14 @@
 [
   
   {
+    "title"    : "Linux CLI",
+    "category" : "",
+    "tags"     : "bash, CLI",
+    "url"      : "/code-log/clog/2015/06/27/linux-cli/",
+    "date"     : "2015-06-27 00:00:00 -0600"
+    } ,
+    
+  {
     "title"    : "Code Logging",
     "category" : "",
     "tags"     : "template",
