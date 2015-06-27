@@ -3,7 +3,7 @@ layout: post
 title: "Linux CLI"
 categories: [ CLog ]
 tags: [ bash, CLI ]
-Author: Rowan Maddigen
+author: Rowan Maddigen
 thumbnail: jekyll
 summary: Terminal commands for Linux
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Code Logging
 categories: [CLog]
 tags: [template]
-Author: Rowan Maddigen
+author: Rowan Maddigen
 thumbnail: jekyll
 summary: Code logging examples
 ---
