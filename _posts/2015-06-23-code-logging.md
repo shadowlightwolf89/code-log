@@ -6,7 +6,6 @@ tags: [template]
 Author: Rowan Maddigen
 thumbnail: jekyll
 summary: Code logging examples
-
 ---
 
 This blog is what I call a code log, a place to post bits and pieces of code I find around the net along with the instructions on how to use them. Code Logging must be done such a way as to provide meaningful information and examples of code and output for ease of use.

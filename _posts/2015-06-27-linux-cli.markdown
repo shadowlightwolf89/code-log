@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Linux CLI"
+categories: [ CLog ]
+tags: [ bash, CLI ]
+Author: Rowan Maddigen
+thumbnail: jekyll
+summary: Terminal commands for Linux
+---
+
+I have just uploaded several markdown files to the master branch with Linux Terminal commands, now, these are commands I use frequently or have deemed of later use, but maybe not for you, if you find them useful, all well and good.
+
+Anyways, you can find them [here](https://github.com/shadowlightwolf89/code-log/tree/master/Linux), the Apps folder contains commands for 3rd party apps that you have to install separately and might not already have, the Functions folder contains commands for built in apps or apps that you really ought to have installed if you don't already, such as apps to unarchive things.
